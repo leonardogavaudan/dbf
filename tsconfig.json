@@ -1,7 +1,10 @@
 {
   "compilerOptions": {
+    "noEmit": true,
     "strict": true,
-    "jsx": "react-jsx",
-    "jsxImportSource": "hono/jsx"
-  }
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "node"
+  },
+  "include": ["./src/**/*"]
 }
